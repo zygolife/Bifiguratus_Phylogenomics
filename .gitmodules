@@ -1,0 +1,3 @@
+[submodule "1kfg-phylogenomics-tools"]
+	path = 1kfg-phylogenomics-tools
+	url = git@github.com:1KFG/Phylogenomics.git
