@@ -1,0 +1,4 @@
+PREFIX=EndogeneLike
+FINALPREF=EndogeneLike
+OUT=Gloin1
+EXTRARAXML=
