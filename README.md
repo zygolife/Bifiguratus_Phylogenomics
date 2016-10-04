@@ -80,3 +80,10 @@ $ qsub -l nodes=1:ppn=32,mem=24gb -q highmem 06_raxml_standardBootstrap.sh
 I'm using raxml-PTHREADS-AVX but other systems with MPI or only SSE3
 chipsets might be appropriate.
 
+Step 7 - fix names in tree
+==========================
+Rename the taxa in the tree to long names
+```
+$ cd phylo
+$ perl ../scripts/rename_tree_nodes.pl RAxML_bipartitions.Standard.Bifiguratus.2016_Oct_03.JGI1086.10sp ../prefix.tab > Bifiguratus.2016_Oct_03.JGI1086.10sp.tre
+```
