@@ -3,7 +3,6 @@ This is workflow for Phylogenomic analyses performed to support
 Torres-Cruz et al. "Bifiguratus adelaidae gen. et sp. nov., a new lineage of Mucoromycotina with endophytic and soil-dwelling strains."
 
 The steps to run this are outlined as follows. The protein datasets from JGI and other sources are included in this release.
-St
 
 This will require the external tools be installed
 * Bioperl Perl libraries - http://bioperl.org/
