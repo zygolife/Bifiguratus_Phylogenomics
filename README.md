@@ -76,8 +76,8 @@ On our cluster we run it this way, but many alternatives depending on setup
 $ qsub -l nodes=1:ppn=32,mem=24gb -q highmem 06_raxml_standardBootstrap.sh
 ```
 
-I'm using raxml-PTHREADS-AVX but other systems with MPI or only SSE3
-chipsets might be appropriate.
+I'm using raxml-PTHREADS-AVX but other systems with only SSE3
+instruction set might be appropriate or MPI. Also ExaML could be swapped in.
 
 Step 7 - fix names in tree
 ==========================
